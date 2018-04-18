@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:measureWithLargestChild="true"
+    android:shrinkColumns="*"
+    tools:context=".Relatorio">
+
+
+    <TableRow
+        android:id="@+id/segundaRow"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/segundaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/segundafeira" />
+
+            <SeekBar
+                android:id="@+id/segSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="720"
+                android:progress="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/segTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tercaRow"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tercaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tercafeira" />
+
+            <SeekBar
+                android:id="@+id/terSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="720"
+                android:progress="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/terTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/quartaRow"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quartaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quartafeira" />
+
+            <SeekBar
+                android:id="@+id/quaSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="720"
+                android:progress="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/quaTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/quintaRow"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quintaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quintafeira" />
+
+            <SeekBar
+                android:id="@+id/quiSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="720"
+                android:progress="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/quiTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/sextaRow"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sextaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sextafeira" />
+
+            <SeekBar
+                android:id="@+id/sexSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="720"
+                android:progress="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sexTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <Button
+        android:id="@+id/saveJornada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar" />
+</TableLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    android:measureWithLargestChild="true"
+    tools:context=".Relatorio">
+
+
+    <TableRow
+        android:id="@+id/row0"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/segRelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/segunda" />
+
+        <TextView
+            android:id="@+id/segActitivitiesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/segSaldo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saldo: -3h30min" />
+
+            <TextView
+                android:id="@+id/segCor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="\n\n" />
+        </LinearLayout>
+    </TableRow>
+
+    <View style="@style/Divider"/>
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/terRelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terca" />
+
+        <TextView
+            android:id="@+id/terActitivitiesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/terSaldo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saldo: -3h30min" />
+
+            <TextView
+                android:id="@+id/terCor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="\n\n" />
+        </LinearLayout>
+    </TableRow>
+
+    <View style="@style/Divider"/>
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/quaRelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quarta" />
+
+        <TextView
+            android:id="@+id/quaActitivitiesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quaSaldo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saldo: -3h30min" />
+
+            <TextView
+                android:id="@+id/quaCor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="\n\n" />
+        </LinearLayout>
+    </TableRow>
+
+    <View style="@style/Divider"/>
+
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/quiRelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quinta" />
+
+        <TextView
+            android:id="@+id/quiActitivitiesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quiSaldo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saldo: -3h30min" />
+
+            <TextView
+                android:id="@+id/quiCor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="\n\n" />
+        </LinearLayout>
+    </TableRow>
+
+    <View style="@style/Divider"/>
+
+    <TableRow
+        android:id="@+id/row4"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/sexRelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sexta" />
+
+        <TextView
+            android:id="@+id/sexActitivitiesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sexSaldo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saldo: -3h30min" />
+
+            <TextView
+                android:id="@+id/sexCor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="\n\n" />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

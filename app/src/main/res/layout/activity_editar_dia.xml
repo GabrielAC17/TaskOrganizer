@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarDiaActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        style="@style/MySpinnerLook"
+        android:hint="@string/atividade_spinner" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabInside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_marginTop="121dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        android:layout_alignLeft="@+id/spinner" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/colorPriority"
+        android:layout_alignStart="@+id/spinner"
+        android:hint="@string/Importancia_seek"
+        android:max="100"
+        android:min="1"
+        android:progress="1"
+        android:layout_alignLeft="@+id/spinner" />
+
+    <TextView
+        android:id="@+id/colorPriority"
+        android:layout_width="43dp"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/spinner"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:text="       "
+        android:layout_alignRight="@+id/spinner" />
+
+    <TextView
+        android:id="@+id/diaTexto"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/atividades_na_dia_feira" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="@string/confirmar" />
+
+    <Button
+        android:id="@+id/horaInicialButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="199dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/definir_hora_inicial"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp" />
+
+    <Button
+        android:id="@+id/horaFinalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/horaInicialButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="109dp"
+        android:text="@string/definir_hora_final"
+        android:layout_alignRight="@+id/horaInicialButton" />
+
+    <TextView
+        android:id="@+id/horaInicialText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/horaInicialButton"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_alignLeft="@+id/spinner" />
+
+    <TextView
+        android:id="@+id/horaFinalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/horaFinalButton"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_alignLeft="@+id/spinner" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar"
+        android:layout_alignStart="@+id/spinner"
+        android:text="@string/prioridade" />
+</RelativeLayout>
